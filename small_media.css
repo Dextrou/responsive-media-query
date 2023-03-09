@@ -113,20 +113,18 @@
         width: 90%;
     }
    .footer{
+    padding-top: 12px;
     background-color: red;
+   }
+   #img2{
     display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    height: 20vh;
    }
    .foot{
+    height: 10vh;
     display: flex;
     flex-direction: column;
-   }
-   .foot li{
-    display: flex;
-    justify-self: center;
+    justify-content: center;
+    align-items: center;
    }
    .foot img{
     margin-left: 4px;
