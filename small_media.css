@@ -1,9 +1,9 @@
-@media only screen and (max-width:800px) and (min-width:300px){
+@media only screen and (max-width:800px) and (min-width:200px){
     *{
      padding: 0;
      margin: 0;
      box-sizing: border-box;
-     display: grid !important;
+     display: grid;
     }
     .header{
      position: sticky;
@@ -15,14 +15,14 @@
      align-items: center;
      justify-content: center;
      background-color: aqua;
-     height: 10vh !important;
-     width: 100% !important;
+     height: 10vh;
+     width: 100%;
     }
     .header h2{
      padding-bottom: 4px;
     }
     .navbar{
-     width: 100% !important;
+     width: 100%;
      visibility:visible;
     }
     .nav a{
@@ -100,9 +100,11 @@
     }
     .top-box{
         grid-area: topi;
+        margin-top: 6vh;
     }
     .content-box{
         grid-area: bottom1;
+        margin-top: 6vh;
 
     }
     img{
@@ -110,25 +112,27 @@
         height: 30vh;
         width: 90%;
     }
-    .footer .foot{
-        display: flex;
-        flex-direction: column;
-    }
-    .foot li{
-        display: flex;
-        align-self: center;
-    }
-    .footer{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 10vh;
-        background-color: burlywood;
-    }
-    .footer img{
-        height: 20px !important;
-        width: 20px !important;
-    }
+   .footer{
+    background-color: red;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 20vh;
+   }
+   .foot{
+    display: flex;
+    flex-direction: column;
+   }
+   .foot li{
+    display: flex;
+    justify-self: center;
+   }
+   .foot img{
+    margin-left: 4px;
+    width: 20px !important;
+    height: 20px !important;
+   }
     #bt1{
         margin-top: 0.4vh;
         font-size: 13px;
